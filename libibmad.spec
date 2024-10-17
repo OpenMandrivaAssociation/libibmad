@@ -3,7 +3,7 @@ Name:		libibmad
 Version:	1.3.13
 Release:	1
 License:	GPLv2 or BSD
-Url:		http://www.openfabrics.org/
+Url:		https://www.openfabrics.org/
 Source:		http://www.openfabrics.org/downloads/management/%{name}-%{version}.tar.gz
 Source1:	%{name}.rpmlintrc
 BuildRequires:	libibumad-devel
