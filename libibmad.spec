@@ -6,6 +6,11 @@ License:	GPLv2 or BSD
 Url:		https://www.openfabrics.org/
 Source:		http://www.openfabrics.org/downloads/management/%{name}-%{version}.tar.gz
 Source1:	%{name}.rpmlintrc
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libibumad-devel
 
 %description
